@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Cognifyz Internship Task-8
+    </title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="css/styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand d-flex align-items-center"
+                href="#">
+
+                <div class="d-flex flex-column text-start">
+
+                    <span class="fw-bold fs-3">
+                        Cognifyz
+                    </span>
+
+                </div>
+
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="#">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#api-data">
+                            <i class="fa-solid fa-book"></i>
+                            Courses
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#RegistrationForm">
+                            <i class="fa-solid fa-briefcase"></i>
+                            Internships
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#contact">
+                            <i class="fa-solid fa-phone"></i>
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+
+                    <input class="form-control me-2"
+                        type="search"
+                        placeholder="Search Courses">
+
+                    <button class="btn btn-outline-light"
+                        type="submit">
+                        Search
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container mt-5 pt-5">
+
+        <h1>
+            <i>
+                Empowering Future Innovators Across
+                Multiple Technology Domains
+            </i>
+        </h1>
+
+        <h2>
+            <i>
+                Explore internships, industry-ready skills,
+                and career opportunities in modern technologies
+            </i>
+        </h2>
+
+        <p>
+            <b><i>
+                    This platform was created for
+                    Cognifyz Internship Task-8 to provide
+                    insights into various technology domains
+                    including Frontend Development,
+                    Backend Development,
+                    Full Stack Development,
+                    Artificial Intelligence,
+                    and Cloud Computing.
+                </i></b>
+        </p>
+
+        <p>
+            <b><i>
+                    The website helps students and aspiring
+                    professionals discover internship opportunities,
+                    enhance technical skills, and prepare for
+                    real-world company recruitment processes.
+                </i></b>
+        </p>
+
+        <img src="ChatGPT Image Jun 8, 2026, 03_52_49 PM.png"
+            alt="Technology Image"
+            width="400">
+
+        <div id="api-data"
+            class="card p-3 mt-4">
+        </div>
+
+        <button id="colorButton"
+            class="btn btn-primary">
+            Explore Courses & Internships
+        </button>
+
+        <form id="RegistrationForm"
+            class="w-50 mx-auto">
+
+            <h2 class="text-center mb-4">
+                Registration Form
+            </h2>
+
+            <div class="mb-3">
+
+                <label for="fullName"
+                    class="form-label">
+                    Full Name
+                </label>
+
+                <input type="text"
+                    id="fullName"
+                    class="form-control"
+                    placeholder="Enter your Full Name"
+                    required>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for="email"
+                    class="form-label">
+                    Email
+                </label>
+
+                <input type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your Email"
+                    required>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for="phone"
+                    class="form-label">
+                    Phone Number
+                </label>
+
+                <input type="tel"
+                    id="phone"
+                    class="form-control"
+                    placeholder="Enter your Phone Number"
+                    required>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for="password"
+                    class="form-label">
+                    Password
+                </label>
+
+                <input type="password"
+                    id="password"
+                    class="form-control"
+                    placeholder="Enter Password"
+                    minlength="8"
+                    required>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for="confirmPassword"
+                    class="form-label">
+                    Confirm Password
+                </label>
+
+                <input type="password"
+                    id="confirmPassword"
+                    class="form-control"
+                    placeholder="Confirm Password"
+                    minlength="8"
+                    required>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label for="course"
+                    class="form-label">
+                    Select Course
+                </label>
+
+                <select id="course"
+                    class="form-select">
+
+                    <option value="">
+                        Choose a Course
+                    </option>
+
+                    <option value="frontend">
+                        Frontend Development
+                    </option>
+
+                    <option value="backend">
+                        Backend Development
+                    </option>
+
+                    <option value="fullstack">
+                        Full Stack Development
+                    </option>
+
+                    <option value="ai">
+                        Artificial Intelligence
+                    </option>
+
+                    <option value="cloud">
+                        Cloud Computing
+                    </option>
+
+                </select>
+
+            </div>
+
+            <button type="submit"
+                class="btn btn-success w-100">
+                Register
+            </button>
+
+        </form>
+
+    </div>
+    <!--New Additions in Task-8 after this Line-->
+    <div id = "CourseDetails" class = "courses-details-section">
+        <div class = "section-header">
+            <div class = "section-badge">EXPLORE PROGRAMS</div>
+            <h2 class = "section-title">Courses & Internship Details</h2>
+            <p class = "section-subtitle">Everything you need to know about our technology programs</p>
+        </div>
+        <div class = "course-detail-card" id = "detail-frontend">
+            <div class = "course-detail-inner">
+                <div class = "course-detail-left">
+                    <div class = "course-icon-wrap frontend-icon">
+                        <i class = "fa-solid fa-code"></i>
+                    </div>
+                    <h3 class = "course-detail-title">Frontend Development</h3>
+                    <p class="course-detail-desc">
+                        Master the art of building stunning, responsive user interfaces. You'll work with
+                        HTML5, CSS3, SCSS, JavaScript, Bootstrap, and React to create real-world projects
+                        that run on any device seamlessly.
+                    </p>
+                        
+                    
+                    <div class = "skills-grid">
+                        <span class = "skill-tag">HTML</spna>
+                        <span class = "skill-tag">CSS & SCSS</span>
+                        <span class = "skill-tag">JavaScript</span>
+                        <span class = "skill-tag">Bootstrap</span>
+                        <span class = "skill-tag">React</span>
+                        <span class = "skill-tag">API Integration</span>
+                        <span class = "skill-tag">Responsive Design</span>
+                        <span class = "skill-tag">Git & Github</span>
+                    </div>
+                     <div class="ai-image-block">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&q=80"
+                        alt="Frontend Development" class="ai-course-img">
+                    <div class="img-caption">Building pixel-perfect responsive web interfaces</div>
+                </div>
+                <div class="course-detail-right">
+                <div class="info-block">
+                    <h4><i class="fa-solid fa-route"></i> Learning Path</h4>
+                    <ol class="learning-steps">
+                        <li>Week 1–2: HTML5 structure & semantic elements</li>
+                        <li>Week 3–4: CSS3, Flexbox, Grid & SCSS</li>
+                        <li>Week 5–6: JavaScript fundamentals & DOM</li>
+                        <li>Week 7–8: Bootstrap responsive layouts</li>
+                        <li>Week 9–10: React components & state management</li>
+                        <li>Week 11–12: Real-world project + deployment</li>
+                    </ol>
+                </div>
+                 <div class="info-block highlight-block">
+                    <h4><i class="fa-solid fa-magnifying-glass"></i> Shortlisting Procedure</h4>
+                    <div class="procedure-steps">
+                        <div class="proc-step">
+                            <div class="proc-num">01</div>
+                            <div class="proc-text">
+                                <strong>Online Application</strong>
+                                <p>Fill the registration form with your details and select Frontend Development as your course.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">02</div>
+                            <div class="proc-text">
+                                <strong>Aptitude Screening</strong>
+                                <p>Online test covering logical reasoning, basic web concepts, and problem-solving ability.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">03</div>
+                            <div class="proc-text">
+                                <strong>Technical Interview</strong>
+                                <p>30-minute video interview assessing your HTML/CSS/JS knowledge and portfolio projects.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">04</div>
+                            <div class="proc-text">
+                                <strong>Final Selection</strong>
+                                <p>Offer letter sent via email within 5 working days. Onboarding kit provided on Day 1.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-block cert-block">
+                    <h4><i class="fa-solid fa-certificate"></i> Certificates Awarded</h4>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <i class="fa-solid fa-medal"></i>
+                            <div>
+                                <strong>Internship Completion Certificate</strong>
+                                <p>Awarded after successful completion of all tasks and final project submission.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <strong>Letter of Recommendation</strong>
+                                <p>Issued to top performers (top 20%) graded by mentors on code quality and creativity.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-trophy"></i>
+                            <div>
+                                <strong>Excellence Award Certificate</strong>
+                                <p>For interns who score above 90% in evaluations and deliver an outstanding final project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-detail-card" id="detail-backend">
+        <div class="course-detail-inner reverse">
+            <div class="course-detail-left">
+                <div class="course-icon-wrap backend-icon">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <h3 class="course-detail-title">Backend Development</h3>
+                <p class="course-detail-desc">
+                    Dive deep into server-side programming, REST APIs, authentication systems, and
+                    database management with Node.js, Express.js, and MongoDB to power modern web apps.
+                </p>
+                <div class="skills-grid">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Express.js</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">JWT Auth</span>
+                    <span class="skill-tag">SQL Basics</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">Deployment</span>
+                </div>
+                <div class="ai-image-block">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&q=80"
+                        alt="Backend Development" class="ai-course-img">
+                    <div class="img-caption">Engineering robust APIs and server infrastructure</div>
+                </div>
+            </div>
+            <div class="course-detail-right">
+                <div class="info-block">
+                    <h4><i class="fa-solid fa-route"></i> Learning Path</h4>
+                    <ol class="learning-steps">
+                        <li>Week 1–2: Node.js core modules & npm ecosystem</li>
+                        <li>Week 3–4: Express.js routing & middleware</li>
+                        <li>Week 5–6: MongoDB & Mongoose ORM</li>
+                        <li>Week 7–8: REST API design & Postman testing</li>
+                        <li>Week 9–10: JWT Authentication & security</li>
+                        <li>Week 11–12: Deployment on Heroku / Railway</li>
+                    </ol>
+                </div>
+                <div class="info-block highlight-block">
+                    <h4><i class="fa-solid fa-magnifying-glass"></i> Shortlisting Procedure</h4>
+                    <div class="procedure-steps">
+                        <div class="proc-step">
+                            <div class="proc-num">01</div>
+                            <div class="proc-text">
+                                <strong>Online Application</strong>
+                                <p>Submit your application with resume and select Backend Development.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">02</div>
+                            <div class="proc-text">
+                                <strong>Coding Challenge</strong>
+                                <p>Build a simple REST API with CRUD operations within 48 hours using Node.js.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">03</div>
+                            <div class="proc-text">
+                                <strong>Technical Interview</strong>
+                                <p>Discussion of your challenge submission, architecture decisions, and database knowledge.</p>
+                            </div>
+                        </div>
+                        <div class = "proc-step">
+                            <div class = "proc-num">04</div>
+                            <div class = "proc-text">
+                                <strong>Offer & Onboarding</strong>
+                                <p>Selected candidates receive offer letter and access to private GitHub repositories.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class = "info-block cert-block">
+                <h4><i class = "fa-solid fa-certificate"> Certificates Awarded</i></h4>
+                <div class = "cert-list">
+                    <div class = "cert-item">
+                        <i class = "fa-solid fa-medal"></i>
+                    </div>
+                    <strong>Internship Completion Certificate</strong>
+                                <p>Granted upon finishing all weekly tasks and submitting the final API project.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <strong>Letter of Recommendation</strong>
+                                <p>For top performers demonstrating strong backend architecture and clean code practices.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-trophy"></i>
+                            <div>
+                                <strong>Best Backend Project Award</strong>
+                                <p>Awarded to the intern with the most scalable, secure, and well-documented API project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-detail-card" id="detail-fullstack">
+        <div class="course-detail-inner">
+            <div class="course-detail-left">
+                <div class="course-icon-wrap fullstack-icon">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h3 class="course-detail-title">Full Stack Development</h3>
+                <p class="course-detail-desc">
+                    Become a complete developer by mastering both frontend and backend technologies.
+                    Build end-to-end web applications from UI design to database integration and cloud deployment.
+                </p>
+                <div class="skills-grid">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Express.js</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">JWT Auth</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Deployment</span>
+                </div>
+                <div class="ai-image-block">
+                    <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=500&q=80"
+                        alt="Full Stack Development" class="ai-course-img">
+                    <div class="img-caption">Creating complete web applications from frontend to backend</div>
+                </div>
+            </div>
+            <div class="course-detail-right">
+                <div class="info-block">
+                    <h4><i class="fa-solid fa-route"></i> Learning Path</h4>
+                    <ol class="learning-steps">
+                        <li>Week 1–3: React + modern JavaScript (ES6+)</li>
+                        <li>Week 4–5: Node.js + Express REST APIs</li>
+                        <li>Week 6–7: MongoDB integration & Mongoose</li>
+                        <li>Week 8–9: Full MERN stack project</li>
+                        <li>Week 10–11: Authentication & security</li>
+                        <li>Week 12: Deployment & CI/CD basics</li>
+                    </ol>
+                </div>
+                <div class="info-block highlight-block">
+                    <h4><i class="fa-solid fa-magnifying-glass"></i> Shortlisting Procedure</h4>
+                    <div class="procedure-steps">
+                        <div class="proc-step">
+                            <div class="proc-num">01</div>
+                            <div class="proc-text">
+                                <strong>Application & Portfolio</strong>
+                                <p>Submit links to any previous projects (GitHub, portfolio website, etc.).</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">02</div>
+                            <div class="proc-text">
+                                <strong>Mini Project Task</strong>
+                                <p>Build a simple full-stack todo app with React frontend + Node backend within 72 hours.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">03</div>
+                            <div class="proc-text">
+                                <strong>Technical + HR Interview</strong>
+                                <p>Code walkthrough, system design basics, and cultural fit assessment.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">04</div>
+                            <div class="proc-text">
+                                <strong>Selection & Onboarding</strong>
+                                <p>Final offer with project mentor assignment and access to full-stack boilerplate codebase.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-block cert-block">
+                    <h4><i class="fa-solid fa-certificate"></i> Certificates Awarded</h4>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <i class="fa-solid fa-medal"></i>
+                            <div>
+                                <strong>Full Stack Internship Certificate</strong>
+                                <p>Issued after completing all milestones and deploying the final MERN application.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <strong>Letter of Recommendation</strong>
+                                <p>For interns who build production-ready apps with clean architecture and documentation.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-trophy"></i>
+                            <div>
+                                <strong>Best Full Stack Project Award</strong>
+                                <p>For the most complete, innovative, and user-friendly deployed application.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-detail-card" id="detail-ai">
+        <div class="course-detail-inner reverse">
+            <div class="course-detail-left">
+                <div class="course-icon-wrap ai-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h3 class="course-detail-title">Artificial Intelligence</h3>
+                <p class="course-detail-desc">
+                    Explore the world of machine learning, deep learning, and intelligent automation.
+                    Work with Python, scikit-learn, TensorFlow and real-world datasets to solve
+                    complex problems using AI.
+                </p>
+                <div class="skills-grid">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">NumPy & Pandas</span>
+                    <span class="skill-tag">scikit-learn</span>
+                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">Deep Learning</span>
+                    <span class="skill-tag">NLP</span>
+                    <span class="skill-tag">Data Visualization</span>
+                    <span class="skill-tag">Jupyter Notebooks</span>
+                </div>
+                <div class="ai-image-block">
+                    <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=500&q=80"
+                        alt="Artificial Intelligence" class="ai-course-img">
+                    <div class="img-caption">Training intelligent models with real-world data</div>
+                </div>
+            </div>
+            <div class="course-detail-right">
+                <div class="info-block">
+                    <h4><i class="fa-solid fa-route"></i> Learning Path</h4>
+                    <ol class="learning-steps">
+                        <li>Week 1–2: Python for Data Science (NumPy, Pandas)</li>
+                        <li>Week 3–4: Data visualization & EDA</li>
+                        <li>Week 5–6: Machine Learning with scikit-learn</li>
+                        <li>Week 7–8: Deep Learning fundamentals (TensorFlow)</li>
+                        <li>Week 9–10: NLP & Computer Vision basics</li>
+                        <li>Week 11–12: AI project + model deployment</li>
+                    </ol>
+                </div>
+                                <div class="info-block highlight-block">
+                    <h4><i class="fa-solid fa-magnifying-glass"></i> Shortlisting Procedure</h4>
+                    <div class="procedure-steps">
+                        <div class="proc-step">
+                            <div class="proc-num">01</div>
+                            <div class="proc-text">
+                                <strong>Application Submission</strong>
+                                <p>Apply with your resume mentioning any Python or data science exposure.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">02</div>
+                            <div class="proc-text">
+                                <strong>Data Analysis Test</strong>
+                                <p>Analyze a provided dataset using Python (Pandas, Matplotlib) and submit your Jupyter notebook.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">03</div>
+                            <div class="proc-text">
+                                <strong>Concept Interview</strong>
+                                <p>Discussion on ML algorithms, overfitting, validation strategies, and data preprocessing.</p>
+                            </div>
+                        </div>
+                        <div class="proc-step">
+                            <div class="proc-num">04</div>
+                            <div class="proc-text">
+                                <strong>Offer & Mentor Pairing</strong>
+                                <p>Selected candidates are paired with an AI mentor and given access to training datasets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-block cert-block">
+                    <h4><i class="fa-solid fa-certificate"></i> Certificates Awarded</h4>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <i class="fa-solid fa-medal"></i>
+                            <div>
+                                <strong>AI Internship Completion Certificate</strong>
+                                <p>Issued on completing weekly ML projects and the final AI model submission.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <strong>Letter of Recommendation</strong>
+                                <p>For top performers demonstrating strong model accuracy and innovative problem-solving.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fa-solid fa-trophy"></i>
+                            <div>
+                                <strong>AI Innovation Award</strong>
+                                <p>For the intern who builds the most impactful and accurate AI model during the program.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="course-detail-card" id="detail-cloud">
+        <div class="course-detail-inner">
+            <div class="course-detail-left">
+                <div class="course-icon-wrap cloud-icon">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+                <h3 class="course-detail-title">Cloud Computing</h3>
+                <p class="course-detail-desc">
+                    Learn to deploy, manage, and scale applications on cloud platforms like AWS.
+                    Master DevOps tools, containerization with Docker, and cloud infrastructure
+                    management for modern enterprise applications.
+                </p>
+
+                <div class="skills-grid">
+                    <span class="skill-tag">AWS (EC2, S3, Lambda)</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes Basics</span>
+                    <span class="skill-tag">CI/CD Pipelines</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Networking</span>
+                    <span class="skill-tag">IAM & Security</span>
+                    <span class="skill-tag">Cloud Storage</span>
+                </div>
+
+                <div class="ai-image-block">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&q=80"
+                        alt="Cloud Computing" class="ai-course-img">
+                    <div class="img-caption">Scaling applications across global cloud infrastructure</div>
+                </div>
+            </div>
+
+            <div class="course-detail-right">
+                <div class="info-block">
+                    <h4><i class="fa-solid fa-route"></i> Learning Path</h4>
+                    <ol class="learning-steps">
+                        <li>Week 1–2: Linux fundamentals & networking basics</li>
+                        <li>Week 3–4: AWS core services (EC2, S3, IAM)</li>
+                        <li>Week 5–6: Docker containerization</li>
+                        <li>Week 7–8: CI/CD with GitHub Actions</li>
+                        <li>Week 9–10: Kubernetes & orchestration intro</li>
+                        <li>Week 11–12: Full cloud deployment project</li>
+                    </ol>
+                </div>
+
+                <div class="info-block highlight-block">
+                    <h4><i class="fa-solid fa-magnifying-glass"></i> Shortlisting Procedure</h4>
+                    <div class="procedure-steps">
+                        <div class="proc-step">
+                            <div class="proc-num">01</div>
+                            <div class="proc-text">
+                                <strong>Application & Background Check</strong>
+                                <p>Apply with your resume highlighting any Linux or networking experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="proc-step">
+                            <div class="proc-num">02</div>
+                            <div class="proc-text">
+                                <strong>Cloud Basics Quiz</strong>
+                                <p>Online MCQ test covering Linux commands, networking concepts, and AWS fundamentals.</p>
+                            </div>
+                        </div>
+
+                        <div class="proc-step">
+                            <div class="proc-num">03</div>
+                            <div class="proc-text">
+                                <strong>Scenario Interview</strong>
+                                <p>Solve a real-world cloud deployment scenario: "How would you deploy this app on AWS?"</p>
+                            </div>
+                        </div>
+
+                        <div class="proc-step">
+                            <div class="proc-num">04</div>
+                            <div class="proc-text">
+                                <strong>Onboarding & AWS Sandbox</strong>
+                                <p>Get access to a sandboxed AWS account to experiment and build during the internship.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-block cert-block">
+                    <h4><i class="fa-solid fa-certificate"></i> Certificates Awarded</h4>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <i class="fa-solid fa-medal"></i>
+                            <div>
+                                <strong>Cloud Computing Internship Certificate</strong>
+                                <p>Issued after completing all cloud labs and final deployment project.</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-item">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <strong>Letter of Recommendation</strong>
+                                <p>For interns who demonstrate strong cloud architecture decisions and cost optimization skills.</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-item">
+                            <i class="fa-solid fa-trophy"></i>
+                            <div>
+                                <strong>Cloud Excellence Certificate</strong>
+                                <p>For the intern who builds the most scalable and cost-optimized cloud infrastructure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="navbar-guide" class="navbar-guide-section">
+
+        <div class="section-header">
+            <div class="section-badge">NAVIGATION GUIDE</div>
+            <h2 class="section-title">How to Use This Website</h2>
+            <p class="section-subtitle">A complete walkthrough of every feature in the navigation bar</p>
+        </div>
+                <div class="navbar-explain-grid">
+
+            <div class="navbar-explain-card">
+                <div class="navbar-icon-wrap home-nav">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <h4>Home</h4>
+                <p>
+                    Clicking <strong>Home</strong> in the navbar scrolls you back to the very top of the page.
+                    Here you'll find the platform's headline, a brief introduction to what Cognifyz offers,
+                    and the main technology image. It's your starting point every time you visit.
+                </p>
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80"
+                    alt="Home Section" class="navbar-guide-img">
+            </div>
+
+            <div class="navbar-explain-card">
+                <div class="navbar-icon-wrap courses-nav">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+                <h4>Courses</h4>
+                <p>
+                    The <strong>Courses</strong> link jumps you to the <em>Explore Courses & Internships</em> card area.
+                    Click the <strong>"Explore Courses & Internships"</strong> button there to dynamically load
+                    all five program cards — Frontend, Backend, Full Stack, AI, and Cloud — directly on the page
+                    without any page reload. Each card shows title, description, skill list, and internship info.
+                </p>
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80"
+                    alt="Courses Section" class="navbar-guide-img">
+            </div>
+
+            <div class="navbar-explain-card">
+                <div class="navbar-icon-wrap internship-nav">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h4>Internships</h4>
+                <p>
+                    Clicking <strong>Internships</strong> takes you directly to the
+                    <strong>Registration Form</strong> section. This is where you formally apply
+                    for any internship at Cognifyz. Fill in your full name, email, phone number,
+                    create a secure password, and select your desired course to begin your journey.
+                </p>
+                <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=400&q=80"
+                    alt="Internships Section" class="navbar-guide-img">
+            </div>
+
+            <div class="navbar-explain-card">
+                <div class="navbar-icon-wrap contact-nav">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h4>Contact</h4>
+                <p>
+                    The <strong>Contact</strong> link scrolls to the footer section which contains
+                    three contact boxes — General Queries, Internship Support, and Phone Support —
+                    along with social media links for LinkedIn, GitHub, and Instagram. Use these to
+                    reach the Cognifyz team for any questions or support you need.
+                </p>
+                <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=400&q=80"
+                    alt="Contact Section" class="navbar-guide-img">
+            </div>
+
+            <div class="navbar-explain-card full-width-card">
+                <div class="navbar-icon-wrap search-nav">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h4>Search Bar</h4>
+                <p>
+                    The <strong>Search</strong> field in the top-right of the navbar lets you type keywords
+                    like "Frontend", "AI", "Cloud", or "MongoDB" to quickly find the course that matches
+                    your interest. Hit the <strong>Search</strong> button or press Enter to filter results.
+                    This is especially useful on mobile where scrolling through all content takes time.
+                </p>
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80"
+                    alt="Search Feature" class="navbar-guide-img">
+            </div>
+
+        </div>
+
+        <div class="how-to-apply-section">
+            <div class="section-badge">STEP-BY-STEP</div>
+            <h3>How to Apply for an Internship — Complete Walkthrough</h3>
+
+            <div class="apply-steps-row">
+
+                <div class="apply-step-card">
+                    <div class="apply-step-num">1</div>
+                    <i class="fa-solid fa-compass apply-step-icon"></i>
+                    <h5>Explore Courses</h5>
+                    <p>
+                        Click <strong>Courses</strong> in the navbar, then hit the blue
+                        "Explore Courses & Internships" button to see all programs.
+                    </p>
+                </div>
+
+                <div class="apply-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="apply-step-card">
+                    <div class="apply-step-num">2</div>
+                    <i class="fa-solid fa-file-lines apply-step-icon"></i>
+                    <h5>Read Course Details</h5>
+                    <p>
+                        Scroll through this page to read detailed skill lists,
+                        learning paths, shortlisting steps, and certificate details.
+                    </p>
+                </div>
+
+                <div class="apply-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="apply-step-card">
+                    <div class="apply-step-num">3</div>
+                    <i class="fa-solid fa-pen-to-square apply-step-icon"></i>
+                    <h5>Fill the Form</h5>
+                    <p>
+                        Click <strong>Internships</strong> in the navbar to go to the
+                        Registration Form. Fill in all fields and select your course.
+                    </p>
+                </div>
+
+                <div class="apply-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="apply-step-card">
+                    <div class="apply-step-num">4</div>
+                    <i class="fa-solid fa-paper-plane apply-step-icon"></i>
+                    <h5>Submit & Wait</h5>
+                    <p>
+                        Hit <strong>Register</strong>. You'll receive a confirmation.
+                        Our team will contact you within 3–5 working days.
+                    </p>
+                </div>
+
+                <div class="apply-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="apply-step-card">
+                    <div class="apply-step-num">5</div>
+                    <i class="fa-solid fa-graduation-cap apply-step-icon"></i>
+                    <h5>Get Certified</h5>
+                    <p>
+                        Complete your internship tasks, submit your final project,
+                        and earn your official Cognifyz certificate.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact"
+        class="footer">
+
+        <div class="footer-container">
+
+            <h2 class="footer-title">
+                Contact Us
+            </h2>
+
+            <div class="contact-grid">
+
+                <div class="contact-box">
+
+                    <i class="fa-solid fa-envelope contact-icon"></i>
+
+                    <h4>
+                        General Queries
+                    </h4>
+
+                    <p>
+                        info@cognifyz.com
+                    </p>
+
+                </div>
+
+                <div class="contact-box">
+
+                    <i class="fa-solid fa-briefcase contact-icon"></i>
+
+                    <h4>
+                        Internship Support
+                    </h4>
+
+                    <p>
+                        internships@cognifyz.com
+                    </p>
+
+                </div>
+
+                <div class="contact-box">
+
+                    <i class="fa-solid fa-phone contact-icon"></i>
+
+                    <h4>
+                        Phone Support
+                    </h4>
+
+                    <p>
+                        +91 8837848713
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <hr>
+
+            <p class="copyright">
+                © 2026 Cognifyz Internship Task-8
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="js/Task-8.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+
+    background: radial-gradient(circle at center,
+        #D9B2AF 0%,
+        #C45E6D 15%,
+        #723F69 30%,
+        #442651 45%,
+        #2D5B98 60%,
+        #1A3968 75%,
+        #151C3E 90%,
+        #020413 100%
+    );
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+img {
+    margin-top: 55px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+p {
+    margin-top: 20px;
+}
+
+/*Task-3*/
+
+@media (min-width: 327px) and (max-width:1701px) {
+    /* Mobile Devices */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 15px;
+        line-height: 1.5;
+    }
+
+    img {
+        width: 90%;
+        max-width: 300px;
+        margin-top: 35px;
+    }
+}
+/* Tablets  */
+@media (min-width : 601px) and (max-width: 992px) {
+    h1 {
+        font-size: 38px;
+
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        width: 75%;
+        max-width: 400px;
+    }
+}
+/* Small Laptops */
+@media (min-width: 993px) and (max-width: 1201px) {
+    h1 {
+        font-size: 48px;
+
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 22px;
+    }
+    img {
+        width: 65%;
+        max-width: 460px;
+    }
+}
+/*Desktops*/
+@media (min-width: 1202px) and (max-width: 1600px) {
+
+    body {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 22px;
+        margin-top: 20px;
+        line-height: 1.8;
+        max-width: 1000px;
+    }
+
+    img {
+        width: 500px;
+        max-width: 100%;
+        margin-top: 60px;
+    }
+}
+
+}

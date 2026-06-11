@@ -1,16 +1,14 @@
+// VARIABLES
 $primary-bg: #0A192F;
 $hover-color: #C45E6D;
 $text-color: white;
 $card-bg: rgba(255, 255, 255, 0.1);
 
+// GLOBAL
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 body {
@@ -36,6 +34,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+// NAVBAR
 .navbar {
     background-color: $primary-bg !important;
 
@@ -49,15 +48,7 @@ body {
     }
 }
 
-.logo-img {
-    width: 70px;
-    height: auto;
-    margin-top: 5px;
-    margin-left: 5px;
-    box-shadow: none;
-    border-radius: 0;
-}
-
+// CONTAINER
 .container {
     display: flex;
     flex-direction: column;
@@ -65,6 +56,7 @@ body {
     text-align: center;
 }
 
+// TEXT
 h1,
 h2,
 p {
@@ -85,17 +77,20 @@ p {
     margin-top: 8px;
 }
 
+// IMAGE
 img {
     margin-top: 20px;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
+// CARD
 .card {
     background-color: $card-bg;
     color: white;
 }
 
+// BUTTON
 button {
     margin-top: 40px;
     padding: 15px 30px;
@@ -111,31 +106,7 @@ button {
     }
 }
 
-#colorButton {
-    display: block;
-    margin: 20px auto;
-
-    &:hover {
-        background-color: $hover-color;
-    }
-}
-
-#api-data {
-    margin-top: 30px;
-    max-width: 700px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: $card-bg;
-
-    h3 {
-        margin-bottom: 10px;
-    }
-
-    p {
-        margin-top: 10px;
-    }
-}
-
+// FORM
 #RegistrationForm {
     width: 450px;
     max-width: 95%;
@@ -144,222 +115,25 @@ button {
     background-color: $primary-bg;
     border-radius: 10px;
     color: white;
-    font-style: italic;
-    transition: background-color 0.3s ease;
 
     &:hover {
         background-color: #642932;
-    }
-
-    h2 {
-        margin-bottom: 20px;
-    }
-
-    label {
-        display: block;
-        text-align: left;
-        margin-bottom: 5px;
     }
 
     input,
     select {
         width: 100%;
         padding: 10px;
-        margin-top: 5px;
         margin-bottom: 15px;
         border-radius: 5px;
         border: none;
     }
-
-    .btn-success {
-        background-color: #151C3E;
-        border-color: #151C3E;
-        color: white;
-        transition: background-color 0.3s ease,
-            border-color 0.3s ease;
-
-        &:hover {
-            background-color: $hover-color;
-            border-color: $hover-color;
-            color: white;
-        }
-    }
 }
 
-#SubmitButton {
-    width: 100%;
-}
-
-.footer {
-    width: 100%;
-    margin-top: 70px;
-    padding: 60px 20px;
-
-    background: linear-gradient(
-        135deg,
-        #020413,
-        #151C3E,
-        #1A3968,
-        #0A192F
-    );
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    color: white;
-}
-
-.footer-container {
-    width: 100%;
-    max-width: 1200px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-title {
-    font-size: 42px;
-    margin-bottom: 40px;
-    font-weight: bold;
-}
-
-.contact-grid {
-    width: 100%;
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(250px, 1fr));
-
-    gap: 30px;
-
-    margin-bottom: 40px;
-}
-
-.contact-box {
-    padding: 30px 20px;
-
-    border-radius: 15px;
-
-    background-color: rgba(255,255,255,0.08);
-
-    backdrop-filter: blur(5px);
-
-    transition: 0.3s ease;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    min-height: 220px;
-
-    &:hover {
-        transform: translateY(-10px);
-
-        background-color: rgba(255,255,255,0.15);
-
-        box-shadow: 0 0 20px rgba(255,255,255,0.15);
-    }
-
-    h4 {
-        margin-bottom: 12px;
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 18px;
-        line-height: 1.6;
-    }
-}
-
-.contact-icon {
-    font-size: 40px;
-
-    margin-bottom: 15px;
-
-    color: $hover-color;
-}
-
-.social-icons {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-
-    gap: 25px;
-
-    margin-bottom: 30px;
-
-    a {
-        color: white;
-
-        font-size: 32px;
-
-        transition: 0.3s ease;
-
-        &:hover {
-            color: $hover-color;
-
-            transform: scale(1.2);
-        }
-    }
-}
-
-.footer hr {
-    width: 80%;
-
-    border: 1px solid rgba(255,255,255,0.2);
-
-    margin-bottom: 20px;
-}
-
-.copyright {
-    font-size: 17px;
-
-    opacity: 0.8;
-}
-
-.course-card {
-    background-color: rgba(255,255,255,0.1);
-    border-radius: 12px;
-    margin-top: 20px;
-    padding: 25px;
-    color: white;
-    text-align: left;
-    transition: 0.3s ease;
-
-    &:hover {
-        transform: translateY(-5px);
-        background-color: rgba(255,255,255,0.2);
-    }
-
-    h2 {
-        color: #FFD369;
-        margin-bottom: 15px;
-    }
-
-    h4 {
-        margin-top: 15px;
-        color: $hover-color;
-    }
-
-    ul {
-        margin-left: 20px;
-    }
-
-    li {
-        margin-bottom: 8px;
-    }
-}
-
+// MOBILE
 @media (max-width: 600px) {
 
     body {
-        padding-top: 100px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -374,93 +148,13 @@ button {
 
     p {
         font-size: 16px;
-        line-height: 1.5;
     }
 
     img {
         width: 90%;
-        max-width: 300px;
     }
 
     #RegistrationForm {
         width: 95%;
-    }
-
-    .footer-title {
-        font-size: 28px;
-    }
-
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-box {
-        min-height: 200px;
-    }
-
-    .social-icons a {
-        font-size: 24px;
-    }
-}
-
-@media (min-width: 601px) and (max-width: 992px) {
-
-    h1 {
-        font-size: 38px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    img {
-        width: 75%;
-        max-width: 400px;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1201px) {
-
-    h1 {
-        font-size: 48px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    p {
-        font-size: 22px;
-    }
-
-    img {
-        width: 65%;
-        max-width: 460px;
-    }
-}
-
-@media (min-width: 1202px) and (max-width: 1600px) {
-
-    h1 {
-        font-size: 60px;
-    }
-
-    h2 {
-        font-size: 34px;
-    }
-
-    p {
-        font-size: 22px;
-        line-height: 1.8;
-        max-width: 1000px;
-    }
-
-    img {
-        width: 500px;
-        max-width: 100%;
     }
 }
